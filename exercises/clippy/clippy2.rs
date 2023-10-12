@@ -5,7 +5,7 @@
 
 fn main() {
     let mut res = 42;
-    while let Some(x) = Some(12) {
+    if let Some(x) = Some(12) {
         res += x;
     }
     println!("{}", res);
